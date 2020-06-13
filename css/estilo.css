@@ -1,0 +1,220 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+  }
+  
+  body{
+	    /*Texto principal*/
+        font-family: "candara";
+		font-size: 12;
+  }
+  /*header-cabecera*/
+  .header {
+	width: 100%;
+	height: 600px;
+	background-image: url('../imagenes/logoextendido.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+  }
+  .header > .textos-encabezado {
+		display: flex;
+		height: 430px;
+		width: 100%;
+		align-items: left;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		margin-left: 100px;
+  }
+  .menu{
+		text-align: right;
+		padding: 30px 50px 0 0;
+	}
+  .header .menu  a{
+		text-decoration: underline;
+		color: #fff;
+		margin-right: 20px;
+		font-family: "Palatino Linotype";
+		font-size: 12;
+	  
+  }
+  .header .menu a:active{
+		text-decoration: none;
+		color: #663300;
+	  
+  }
+  .textos-encabezado h1{
+		font-family: "Palatino Linotype";
+		font-size: 50px;	 
+		color: #fff;
+  }
+    .textos-encabezado h2{
+		font-family: "Palatino Linotype";
+		font-size: 30px;	 
+		color: #fff;
+  }
+
+ /* Continuación de header, efecto ola*/	
+ .efectoOla {
+	 position: absolute;
+	 bottom: 0;
+	 width: 100%;
+ }
+  
+  /*Secciones*/
+
+ div .contenedor{
+	/*Cada sección*/
+	padding: 60px 0;
+	width: 90%;
+	max width: 1000px;
+	margin: auto;
+	/* Para que lo que salga del contenedor, se quede oculto */
+	overflow: hidden;
+  }
+  /*Video-presentación (faltó poder conseguir quitar el sonido)*/
+  
+  div .videopresentacion video{
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  height: auto;
+	  z-index: -10;
+	  visibility: visible;	  
+  }
+  
+  /* Encabezado */
+  .titulo{
+	color: #000000;
+	font-family: "Palatino Linotype";
+	font-size: 50px;	
+	text-align: center;
+	margin-botton: 60px;
+  }
+  
+ /*Contenedor cursos*/
+  .cursophi table{
+	 display: flex;
+	 justify-content: space-evenly;
+  }
+  td{
+	  padding: 20px;
+  }
+  
+
+ /*Niveles de estudio*/
+
+ .variosniveles{
+	 display: flex;
+	 justify-content: space-evenly;
+	 width: 90%;
+	 height: auto;
+ }
+ .variosniveles .Sobre-niveles{
+	 width: 80%;
+	 height: 1000px;
+	 margin-top: 90px;
+ }
+ .variosniveles .contenedor-textos{
+	 width: 50%;
+	 height: 50%;
+	 margin-left: 20px;
+ }
+ .contenedor-textos h3{
+	 margin-bottom: 15px;
+ }
+  .contenedor-textos h3 span{
+	 background: black;
+	 color: #fff;
+	 border-radius: 50%;
+	 display: inline-block;
+	 text-align: center;
+	 width: 30px;
+	 height: 30px;
+	 padding: 2px;
+	 box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	 margin-right: 5px;
+ }
+  .contenedor-textos p{
+	  padding: 0px 0px 30px 15px;
+	  font-weight: 200;
+	  text-align: justify;
+  }
+  
+  /*Contenedor proximos-eventos*/
+ div .eventos table{
+	 width: 90%;
+	 height: 50px;
+ } 
+ div .eventos table tr td{
+	text-align: center;
+ }
+.prof{
+	border-radius: 90px;
+	border: burlywood 5px solid;
+}
+  
+  /*Contenedor Productos destacados*/
+  .productos-destacados{
+	 display: block;
+	 justify-content: space-evenly;
+	 width: 90%;
+	 height: auto;
+	 text-align: center;
+  }
+  .productos-destacados .cabeceraproducts{
+	 border-radius: 70px;
+  }
+  .cabeceraproducts{
+	  width: 100%;
+	  height: 300px;
+  }
+  .productos{
+	 width: auto;
+	 height: 30%;
+ } 
+  .productos table{
+	  width: auto;
+	  
+  }
+  .imp-prod{
+	 heigh: 150px;
+	 width: 150px;
+  }
+ 
+ /*Contenedor Pie*/
+ .pie{
+	 width: auto;
+	 height: 400px;
+	 border: 5px solid black;
+	 background-color: grey;
+ }
+ .pie1{
+	 margin-top: 15px;
+	 margin-left: 30px;
+	 width: 30%;
+	 height: 50%;
+	 float: left;
+ }
+ .pie2{
+	 margin-top: 15px;
+	 margin-right: 30px;
+	 float: right;
+ }
+ .pie h1{
+	 color: #00000;
+	 border-bottom: 3px solid #ccc;
+	 padding-bottom: 5px;
+	 margin-bottom: 10px;
+	 text-align: center;
+ }
+ .titulo-final{
+	 text-align: center;
+	 font-size: 24px;
+	 margin: 100px 0 0 0;
+	 color:#9e9797;
+	 float: left;
+ }
